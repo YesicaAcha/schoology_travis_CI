@@ -1,6 +1,6 @@
 Feature: Question Bank Resources
 
-  @deleteResources @softAssert
+  @deleteResources @softAssert @internationalization
   Scenario: Create Question Bank Resource with questions
     Given I log in as "Instructor01" user
     When I navigate to "Resources"
